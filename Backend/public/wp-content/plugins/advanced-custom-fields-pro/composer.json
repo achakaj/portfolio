@@ -1,0 +1,14 @@
+{
+  "name": "sw-mirrors/advanced-custom-fields-pro",
+  "description": "",
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "homepage": "https://bitbucket.org/sw-mirrors/advanced-custom-fields-pro/src",
+  "authors": [],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.1"
+  }
+}

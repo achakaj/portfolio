@@ -1,0 +1,38 @@
+[20-Dec-2023 22:21:39 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Inflector\Inflector" not found in /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/Traits/CanSingularize.php:18
+Stack trace:
+#0 /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/RepeaterBuilder.php(77): StoutLogic\AcfBuilder\RepeaterBuilder->singularize('Models')
+#1 /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/RepeaterBuilder.php(29): StoutLogic\AcfBuilder\RepeaterBuilder->getDefaultButtonLabel()
+#2 /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/FieldsBuilder.php(591): StoutLogic\AcfBuilder\RepeaterBuilder->__construct('door_types', 'repeater', Array)
+#3 [internal function]: StoutLogic\AcfBuilder\FieldsBuilder->addRepeater('door_types', Array)
+#4 /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#5 /home/mounaim/Local Sites/devfoliox/app/public/wp-content/themes/devfoliox/inc/fields/door-type.php(45): StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('addRepeater', Array)
+#6 /home/mounaim/Local Sites/devfoliox/app/public/wp-content/themes/devfoliox/functions.php(190): require('/home/mounaim/L...')
+#7 /home/mounaim/Local Sites/devfoliox/app/public/wp-includes/class-wp-hook.php(324): {closure}('')
+#8 /home/mounaim/Local Sites/devfoliox/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/mounaim/Local Sites/devfoliox/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/mounaim/Local Sites/devfoliox/app/public/wp-settings.php(643): do_action('init')
+#11 /home/mounaim/Local Sites/devfoliox/app/public/wp-config.php(121): require_once('/home/mounaim/L...')
+#12 /home/mounaim/Local Sites/devfoliox/app/public/wp-load.php(50): require_once('/home/mounaim/L...')
+#13 /home/mounaim/Local Sites/devfoliox/app/public/wp-admin/admin.php(34): require_once('/home/mounaim/L...')
+#14 /home/mounaim/Local Sites/devfoliox/app/public/wp-admin/index.php(10): require_once('/home/mounaim/L...')
+#15 {main}
+  thrown in /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/Traits/CanSingularize.php on line 18
+[20-Dec-2023 22:21:40 UTC] PHP Fatal error:  Uncaught Error: Class "Doctrine\Common\Inflector\Inflector" not found in /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/Traits/CanSingularize.php:18
+Stack trace:
+#0 /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/RepeaterBuilder.php(77): StoutLogic\AcfBuilder\RepeaterBuilder->singularize('Models')
+#1 /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/RepeaterBuilder.php(29): StoutLogic\AcfBuilder\RepeaterBuilder->getDefaultButtonLabel()
+#2 /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/FieldsBuilder.php(591): StoutLogic\AcfBuilder\RepeaterBuilder->__construct('door_types', 'repeater', Array)
+#3 [internal function]: StoutLogic\AcfBuilder\FieldsBuilder->addRepeater('door_types', Array)
+#4 /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/ParentDelegationBuilder.php(66): call_user_func_array(Array, Array)
+#5 /home/mounaim/Local Sites/devfoliox/app/public/wp-content/themes/devfoliox/inc/fields/door-type.php(45): StoutLogic\AcfBuilder\ParentDelegationBuilder->__call('addRepeater', Array)
+#6 /home/mounaim/Local Sites/devfoliox/app/public/wp-content/themes/devfoliox/functions.php(190): require('/home/mounaim/L...')
+#7 /home/mounaim/Local Sites/devfoliox/app/public/wp-includes/class-wp-hook.php(324): {closure}('')
+#8 /home/mounaim/Local Sites/devfoliox/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/mounaim/Local Sites/devfoliox/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/mounaim/Local Sites/devfoliox/app/public/wp-settings.php(643): do_action('init')
+#11 /home/mounaim/Local Sites/devfoliox/app/public/wp-config.php(121): require_once('/home/mounaim/L...')
+#12 /home/mounaim/Local Sites/devfoliox/app/public/wp-load.php(50): require_once('/home/mounaim/L...')
+#13 /home/mounaim/Local Sites/devfoliox/app/public/wp-blog-header.php(13): require_once('/home/mounaim/L...')
+#14 /home/mounaim/Local Sites/devfoliox/app/public/index.php(17): require('/home/mounaim/L...')
+#15 {main}
+  thrown in /home/mounaim/Local Sites/devfoliox/app/public/vendor/stoutlogic/acf-builder/src/Traits/CanSingularize.php on line 18
